@@ -14,7 +14,7 @@
 </form>
 
 <?php 
-    echo $username;
+    echo $username . "<br>";
     if ($hashed_username === $target_username && $hashed_password === $target_password){
         echo "woo";
     } else {
